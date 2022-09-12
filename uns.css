@@ -1,0 +1,544 @@
+body{
+    background-color: #F9FEFF;
+    margin: 0;
+}
+
+.header{
+    height: 100px;
+    width: auto;
+    margin-top: 10px;
+    margin-bottom: 70px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.firstpage{
+    display: flex;
+    flex-direction: column;
+}
+.logo1{
+    height: 80px;
+    width: auto;
+    padding-right: 160px;
+    padding-left: 50px;
+}
+.home, .pricing, .support, .contact{
+    font-family: 'Nunito', sans-serif;
+    padding: 40px 27px 20px 27px;
+    font-size: 16px;
+    font-weight: 700;
+    height: 20px;
+    
+}
+.signin{
+    height: 40px;
+    
+    width: auto;
+    font-family: 'Nunito', sans-serif;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 10px;
+    margin-right: 25px;
+    color: #3285FF;
+    margin-top: 30px;
+    border:none;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+    margin-left:130px ;
+    background-color: #F9FEFF;
+}
+ .signup{
+    height: 50px;
+    width: auto;
+    font-family: 'Nunito', sans-serif;
+    margin-top: 20px;
+    padding: 0px 25px;
+    font-weight: bolder;
+    font-size: 14px;
+    border-radius: 40px;
+    color: #F9FEFF;
+    background-color: #3285FF;
+    border:none;
+    justify-content: center;
+    align-items: center;
+    
+ }
+ .mainscreen{
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+ }
+ .main{
+    padding-top: 70px;
+    padding-left: 90px;
+    font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  line-height: 80px;
+    font-size: 62px;
+    color: #000;
+ }
+
+ .subtext1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 90px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    width: 400px;
+    color: rgba(0, 0, 0, 0.434);
+    margin: 0;
+
+ }
+ .buttons{
+    display: flex;
+    flex-direction: row;
+ }
+ .free
+{
+    font-family: 'Nunito', sans-serif;
+    padding: 20px;
+    width: 180px;
+    height:70px;
+    font-size: 15px;
+    border-radius: 50px;
+    color: #F9FEFF;
+    background-color: #3285FF;
+    border:none;
+    justify-content: center;
+    align-items: center;
+    margin-left: 90px;
+    margin-right: 20px;
+}
+.play{
+    height: 15px;
+  width: auto;
+  padding: 5px 5px 0px 5px;
+  justify-content: center;
+}
+.watch{
+    width: 190px;
+    height:70px;
+    border: 1.5px solid #3285FF ;
+    font-family: 'Nunito', sans-serif;
+    padding: 20px;
+    font-size: 15px;
+    border-radius: 50px;
+    color: #3285FF;
+    background-color: #F9FEFF;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
+.girlimage{
+    height: 600px;
+    width: auto;
+}
+.secondpage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.whitespace{
+    padding: 55px;
+}
+.fiture{
+    background-color: #e0e6f1;
+    color: #000;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Nunito', sans-serif;
+    height: 30px;
+    font-size: 11px;
+    padding: 5px 10px 5px 10px;
+    width: auto;
+}
+.welcome{
+color: #000;
+position: relative;
+text-align: center;
+font-family: 'Nunito', sans-serif;
+    height: 30px;
+    font-size: 30px;
+    font-weight: 700;
+    width: auto;
+    padding: 10px;
+}
+.welcomebelow{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.434);
+    padding: 20px;
+    text-align: center;
+    width: 470px;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.card{
+    width: 200px;
+    height: 250px;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+.folder, .inc,.lock,.pie{
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+    padding: 25px;
+}
+.folder{
+    background-color: #DBFFFF;
+}
+.inc{
+    background-color: #FFF1E8;
+}
+.lock{
+    background-color: #FEFCD4;
+}
+.pie{
+    background-color:#D4E2FD ;
+}
+.maintext{
+    color: #000;
+position: relative;
+text-align: center;
+font-family: 'Nunito', sans-serif;
+    height: 20px;
+    font-size: 19px;
+    font-weight: 700;
+    width: auto;
+    padding: 10px;
+
+}
+.subtext{
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.434);
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+
+}
+.secondwhole{
+    display: flex;
+    flex-direction: row;
+}
+.secondleft{
+    width: 50%;
+}
+.bluegirl{
+    width: 250px;
+    height: auto;
+    position: relative;
+    left: 80px;
+    border-radius: 20px;
+    box-shadow:3px 0 5px #00000058;
+}
+.blueselfie{
+    position: relative;
+    top: 120px;
+    left:20px;
+    width: 190px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow:3px 3px 6px #00000058;
+}
+.yellowgirl{
+    width: 100px;
+    height: auto;
+    position: relative;
+    border-radius: 20px;
+    right: 20px;
+    bottom: 30px;
+    box-shadow:3px 3px 5px #00000058;
+}
+.secondwhole{
+    margin-bottom: 140px;
+}
+.learnmore{
+    width: 150px;
+    height:50px;
+    border: 1.5px solid #3285FF ;
+    font-family: 'Nunito', sans-serif;
+    padding: 0 15px 0 15px;
+    font-size: 15px;
+    border-radius: 50px;
+    color: #3285FF;
+    background-color: #F9FEFF;
+    font-weight: bold;
+    margin: 20px;
+    margin-bottom: 10px;
+}
+.thirdpage{
+    display: flex;
+    flex-direction: row;
+}
+.right{
+    margin-top: 100px;
+}
+.thirdright{
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+}
+.features{
+    background-color: #e0e6f1;
+    color: #000;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Nunito', sans-serif;
+    height: 30px;
+    font-size: 13px;
+    margin-left: 20px;
+    padding: 5px;
+    width: 120px;
+}
+.workand{
+    color: #000;
+
+text-align: left;
+font-family: 'Nunito', sans-serif;
+    height: 30px;
+    font-size: 30px;
+    font-weight: 700;
+    width: 380px;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+.workandbelow{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.434);
+    padding: 20px;
+    text-align: left;
+    width: 440px;
+    padding-bottom: 0;
+}
+
+.stores{
+    align-items: center;
+    display: flex;
+    margin-left: 20px;
+
+}
+.store1{
+    height: 190px;
+    width: auto;
+    padding-left: 20px;
+}
+.store2{
+    height: 150px;
+    width: auto;
+}
+.mobile{
+    
+    height: 100%;
+    width: auto;
+    position: absolute;
+    left: 850px;
+    z-index: 4;
+    justify-content: center;
+    align-items: center;
+}
+.bluec{
+    height: 320px;
+    width: 320px;
+    border-radius: 200px;
+    position: relative;
+    left: 300px;
+    top: 100px;
+    z-index: 3;
+    background-color: #69BBE6;
+}
+.lblue{
+    height: 250px;
+    width: 250px;
+    border-radius: 250px;
+    position: relative;
+    left: 175px;
+    bottom: 400px;
+    z-index: 1;
+    background-color: #8DEDEF;
+}
+.yellowc{
+    height: 150px;
+    width: 150px;
+    z-index: 2;
+    border-radius: 150px;
+    position: relative;
+    bottom: 40px;
+    left: 220px;
+    background-color: #FCE601;
+}
+.customer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.testimonial{
+    background-color: #e0e6f1;
+    color: #000;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Nunito', sans-serif;
+    height: 30px;
+    font-size: 11px;
+    padding: 5px 10px 5px 10px;
+    width: auto;
+}
+.customerhead{
+    color: #000;
+position: relative;
+text-align: center;
+font-family: 'Nunito', sans-serif;
+    height: 30px;
+    font-size: 30px;
+    font-weight: 700;
+    width: auto;
+    padding: 10px;
+}
+.customerbelow{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.434);
+    padding: 20px;
+    text-align: center;
+    width: 470px;
+}
+.reviews{
+    margin-top: 20px;
+    margin-left: 90px;
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+}
+.review1{
+    width: 400px;
+    height: 300px;
+    padding: 20px;
+}
+.reviewimg1{
+    border-radius: 50px;
+    height: 80px;
+    width: 80px;
+    padding-left: 0;
+    object-fit: cover;
+}
+.actualreview{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.434);
+    padding: 20px;
+    text-align: left;
+    width: 300px;
+    padding-left: 0;
+}
+.name{
+    color: #000;
+    position: relative;
+
+    font-family: 'Nunito', sans-serif;
+        height: 20px;
+        font-size: 20px;
+        font-weight: 700;
+        width: auto;
+        padding: 10px 10px 0 0;
+}
+.stars{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.rating{
+    margin: 0;
+}
+.rtg, .rtg1{
+    width: auto;
+    height: 25px;
+    padding-left: 10px;
+}
+.place{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.434);
+    padding: 10px;
+    width: 200px;
+    padding-left: 0;
+}
+.scroll{
+    display: flex;
+    justify-content: center;    
+}
+.img{
+    width: 50px;
+    height: auto;
+}
+.roundrect{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.subscribe{
+    background-color: #b9c2d4;
+    color: #000;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Nunito', sans-serif;
+    height: 36px;
+    font-size: 14px;
+    padding: 5px 10px 5px 10px;
+    width: 120px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.endcontent{
+    color: #000;
+position: relative;
+text-align: center;
+font-family: 'Nunito', sans-serif;
+    height: 100px;
+    font-size: 35px;
+    font-weight: 700;
+    width: 550px;
+    padding: 10px;
+}
+.emailadd{
+    width: 450px;
+    height: 70px;
+    border: none;
+    border-radius: 30px;
+    margin-left: 20px;
+}
+.address{
+    border-radius: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    height: 60%;
+}
+.subscrib{
+    font-family: 'Nunito', sans-serif;
+    padding: 15px;
+    width: 180px;
+    height:70px;
+    font-size: 15px;
+    border-radius: 50px;
+    color: #F9FEFF;
+    background-color: #3285FF;
+    border:none;
+    justify-content: center;
+    align-items: center;
+}
