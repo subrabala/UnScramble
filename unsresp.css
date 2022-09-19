@@ -1,0 +1,427 @@
+@media (max-width: 400px){
+    /* .firstpage {
+        display: flex;
+        flex-direction: row;
+    } */
+    .header{
+        flex-direction: row;
+
+    }
+    .logo1{
+        padding: 0;
+       height: 70%;
+       width: auto;
+
+    }
+    .home, .pricing,.support, .contact,.signin,.signup{
+        display: none;
+    }
+    .logo{
+        display: flex;
+    }
+    .burger{
+        display: block;
+        width: 25%;
+        height: 25%;
+        margin-top: 7%;
+        margin-left: 10%;
+    }
+    .mainscreen{
+        display: flex;
+        flex-direction: column;
+    }
+    .buttons{
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+    .main{
+        padding: 0 10%;
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .subtext1{
+        padding: 10% 0 10% 10%;
+        width: 80%;
+        height: auto;
+        font-size: 10px;
+        
+    }
+    .welcome{
+        padding: 10% 10% 5% 10%;
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .workand{
+        width: 80%;
+        height: auto;
+        margin-bottom: 10px;
+        padding: 0 0 0 10%;
+        font-size: 20px;
+        line-height: 25px;
+        
+    }
+    .workandbelow{
+        width: 100%;
+        height: auto;
+        padding: 10% 0 10% 10%;
+        width: 80%;
+        height: auto;
+        font-size: 10px;
+    }
+    .welcomebelow{
+        width: 90%;
+        padding: 10% 0 10% 0;
+        height: auto;
+        font-size: 10px;
+    }
+    .customerbelow{
+        width: 80%;
+        height: auto;
+        padding: 10% 0 10% 10%;
+        width: 80%;
+        height: auto;
+        font-size: 10px;
+    }
+    .customer{
+        margin-top: 40px;
+    }
+    .free{
+        padding: 1%;
+        height: 45px;
+        width: 200px;
+        font-size: 10px;
+        margin-left: 10px;
+        margin-right: 5%;
+    }
+    .watch{
+        padding: 1%;
+        width: 200px;
+        height: 45px;
+        font-size: 10px;
+        margin-right: 5%;
+    }
+    .right{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+    .girlimage{
+        padding: 15% 0;
+        width: 100%;
+        height: 100%;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .secondwhole{
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .card{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .secondright{
+        padding: 0 ;
+    }
+    .review1{
+        margin: 0;
+        margin-left: 10px;
+        margin-top: 30px;
+        padding: 0;
+        width: 100%;
+        height: auto;
+        margin-right: 5px;
+        padding-right: 5px;
+    }
+    .thirdpage{
+        display: flex;
+        flex-direction: column;
+        height: 145vh;
+        width: 100vw;
+
+    }
+    .features{
+        width: 100px;
+        margin: 0;
+        margin-bottom:15px ;
+        margin-left: 20px;
+        font-size: 11px;
+    }
+    .learnmore{
+        margin: 1px;
+        padding: 2px;
+        width: 100px;
+        height: 35px;
+        font-size: 10px;
+        margin-left: 25px;
+        }
+    .thirdright{
+        margin: 0;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .mobile{
+        left: 25%;
+        height: 50%;
+        width: 125px;
+        height: auto;
+
+    }
+    .reviews{
+        display: flex;
+        margin: 0;
+        justify-content: left;
+    }
+    .roundrect{
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        border-radius: 25px;
+        justify-content: center;
+        width: 230px;
+        height: 330px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    }
+    .firsthalf{
+        width: 60%;
+        height: 0px;
+        align-items: bottom;
+    }
+    .address{
+        width: 80%;
+        height: 100px;
+        display: flex;
+        box-shadow: none;
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .env{
+        width: 6px;
+        height: auto;
+    }
+    .emailadd{
+        width: 200px;
+        height: 40px;
+        margin-left: 0;
+        box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+    }
+    .subscrib{
+        transform: scale(0.6);
+    }
+    
+    .secondhalf {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 30px;
+    }
+    .footerend{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .copy, .privacy,.tandc, .details{
+        font-size: 15px;
+        text-align: center;
+        margin: 0;
+    }
+    .endcontent{
+        font-size: 22px;
+        text-align: center;
+        margin: 0;
+        width: 70vw;
+        margin-bottom: 20px;
+
+    }
+    .actualreview{
+        text-align: left;
+        margin: 0;
+    }
+    .head{
+        font-size: 25px;
+    }
+    .copy{
+        padding: 0;
+    }
+    
+    .footer{
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        margin-top: 60px;
+    }
+    .whitespace{
+        display: none;
+    }
+    .about{
+        width: 40%;
+    }
+    .circles{
+        width: 400px;
+        position: relative;
+        right: 180px;
+        bottom: 190px;
+        transform: scale(0.5);
+    }
+
+    .details{
+        width: 100%;
+    }
+    .footerend{
+        padding: 0;
+    }
+    .subscribe{
+        width: 55%;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+    }
+    .stars{
+        display: flex;
+        width: 300px;
+        
+        
+    }
+    .name{
+        width: 30%;
+        font-size: 12px;
+        padding-top: 0;
+    }
+    .place{
+        width: 100%;
+        font-size: 9px;
+        padding: 0;
+    }
+    .copy, .privacy,.tandc{
+        font-size: 8px;
+    }
+    .privacy{
+        padding: 0;
+    }
+    .head{
+        padding:10% 0 10% 0;
+        font-size: 20px;
+        line-height: 25px;
+        text-align: center;
+    }
+    .details a{
+        width: 100%;
+        height: auto;
+        padding:5% 0;
+       font-size: 8px;
+        height: 15px;
+    }
+    .details{
+        padding-right: 0;
+        padding-top: 0;
+    }
+    .footerend{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+ 
+    }
+    .icons{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .details1{
+        width: 200px;
+        height: auto;
+        padding: 10% 0 10% 0;
+        height: auto;
+        font-size: 10px;
+        text-align: center;
+    }
+    .stores{
+        margin: 20px;
+        transform: scale(0.5);
+        position: relative;
+        right:110px;
+    }
+    .secondleft{
+        width: 100vw;
+        height: 50vh;
+        transform: scale(0.9);
+        margin: 20px 0;
+    }
+    .bluegirl{
+        position: relative;
+        width: 60%;
+        top:38px;
+        right: 60px;
+        left: 5px;
+    }
+    .blueselfie{
+        position: relative;
+        width: 40%;
+        top: 0px;
+        left: 85px;
+    }
+    .yellowgirl{
+        position: relative;
+        width: 30%;
+        bottom: 60px;
+        left: 65px;
+    }
+    .testimonial{
+        margin: 0;
+        margin-bottom:15px ;
+    }
+    .customerhead{
+        padding: 0 10% 5% 10%;
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .customerbelow{
+        padding-left: 0;
+        padding-top: 5px;
+    }
+    .colours{
+        width: 70%;
+        height: auto;
+        position: relative;
+        bottom: 17px;
+    }
+    .scroll{
+        display: none;
+    }
+    .reviews{
+        padding: 10px;
+        margin-bottom: 100px;
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+    .review1{
+        padding: 20px 30px;
+        
+    }
+    .reviewimg1{
+        width: 50px;
+        height: 50px;
+    }
+    .actualreview{
+        font-size: 11px;
+        width: 80%;
+        padding-bottom: 10px;
+    }
+    .footlogo{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

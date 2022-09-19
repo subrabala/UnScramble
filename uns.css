@@ -7,7 +7,7 @@ body{
     height: 100px;
     width: auto;
     margin-top: 10px;
-    margin-bottom: 70px;
+    margin-bottom: 1%;
     padding: 10px;
     display: flex;
     flex-direction: row;
@@ -30,9 +30,16 @@ body{
     height: 20px;
     
 }
+.home:hover, .pricing:hover, .support:hover, .contact:hover{
+    text-decoration: underline #2370e3;
+    transition: 0.2s linear;
+}
+.burger{
+    display: none;
+}
+
 .signin{
     height: 40px;
-    
     width: auto;
     font-family: 'Nunito', sans-serif;
     padding: 10px 20px;
@@ -48,11 +55,18 @@ body{
     margin-left:130px ;
     background-color: #F9FEFF;
 }
+.signin:hover{
+    text-decoration: underline #3285FF;
+    cursor: pointer;
+    transition: 0.2s linear;
+}
+
  .signup{
     height: 50px;
     width: auto;
     font-family: 'Nunito', sans-serif;
     margin-top: 20px;
+    transition: 0.2s linear;
     padding: 0px 25px;
     font-weight: bolder;
     font-size: 14px;
@@ -64,6 +78,14 @@ body{
     align-items: center;
     
  }
+ .signup:hover{
+    color: #3285FF;
+    background-color: #F9FEFF;
+    transition: 0.2s linear;
+    border-radius: 40px;
+    border: 1px solid #3285FF;
+    cursor: pointer;
+}
  .mainscreen{
     display: flex;
     flex-direction: row;
@@ -77,6 +99,7 @@ body{
   line-height: 80px;
     font-size: 62px;
     color: #000;
+    
  }
 
  .subtext1{
@@ -100,6 +123,7 @@ body{
     padding: 20px;
     width: 180px;
     height:70px;
+    transition: 0.2s linear;
     font-size: 15px;
     border-radius: 50px;
     color: #F9FEFF;
@@ -110,15 +134,29 @@ body{
     margin-left: 90px;
     margin-right: 20px;
 }
+.free:hover{
+    color: #3285FF;
+    background-color: #F9FEFF;
+    transition: 0.2s linear;
+    border-radius: 40px;
+    border: 1px solid #3285FF;
+    cursor: pointer;
+}
 .play{
-    height: 15px;
-  width: auto;
-  padding: 5px 5px 0px 5px;
+    fill: #2370e3;
+    /* height: 1px;
+  width: auto; */
+  color: white;
+  padding: 5px 10px 0px 5px;
   justify-content: center;
+}
+.watchtext{
+    padding-left: 10px;
 }
 .watch{
     width: 190px;
     height:70px;
+    transition: 0.2s linear;
     border: 1.5px solid #3285FF ;
     font-family: 'Nunito', sans-serif;
     padding: 20px;
@@ -130,8 +168,24 @@ body{
     justify-content: center;
     align-items: center;
 }
+.watch:hover{
+    background-color: #3285FF;
+    color: #F9FEFF;
+    transition: 0.2s linear;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.watch:hover .play{
+    fill:white;
+}
+.watchplay
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .girlimage{
-    height: 600px;
+    height: 98%;
     width: auto;
 }
 .secondpage{
@@ -147,6 +201,7 @@ body{
     background-color: #e0e6f1;
     color: #000;
     border: none;
+    transition: 0.2s linear;
     border-radius: 20px;
     font-family: 'Nunito', sans-serif;
     height: 30px;
@@ -154,6 +209,7 @@ body{
     padding: 5px 10px 5px 10px;
     width: auto;
 }
+
 .welcome{
 color: #000;
 position: relative;
@@ -263,13 +319,12 @@ font-family: 'Nunito', sans-serif;
     bottom: 30px;
     box-shadow:3px 3px 5px #00000058;
 }
-.secondwhole{
-    margin-bottom: 140px;
-}
+
 .learnmore{
     width: 150px;
     height:50px;
     border: 1.5px solid #3285FF ;
+    transition: 0.2s linear;
     font-family: 'Nunito', sans-serif;
     padding: 0 15px 0 15px;
     font-size: 15px;
@@ -279,6 +334,14 @@ font-family: 'Nunito', sans-serif;
     font-weight: bold;
     margin: 20px;
     margin-bottom: 10px;
+}
+.learnmore:hover{
+    background-color: #3285FF;
+    color: #F9FEFF;
+    transition: 0.2s linear;
+    border-radius: 40px;
+    cursor: pointer;
+
 }
 .thirdpage{
     display: flex;
@@ -295,6 +358,7 @@ font-family: 'Nunito', sans-serif;
 .features{
     background-color: #e0e6f1;
     color: #000;
+    transition: 0.2s linear;
     border: none;
     border-radius: 20px;
     font-family: 'Nunito', sans-serif;
@@ -304,6 +368,7 @@ font-family: 'Nunito', sans-serif;
     padding: 5px;
     width: 120px;
 }
+
 .workand{
     color: #000;
 
@@ -330,16 +395,23 @@ font-family: 'Nunito', sans-serif;
     align-items: center;
     display: flex;
     margin-left: 20px;
+    width: 450px;
+margin-top: 20px;
+}
 
-}
 .store1{
-    height: 190px;
+    height: 60px;
     width: auto;
-    padding-left: 20px;
+    margin-left: 20px;
 }
+
 .store2{
-    height: 150px;
+    height: 60px;
     width: auto;
+}
+.store1:hover, .store2:hover{
+    cursor: pointer;
+
 }
 .mobile{
     
@@ -390,6 +462,7 @@ font-family: 'Nunito', sans-serif;
 .testimonial{
     background-color: #e0e6f1;
     color: #000;
+    transition: 0.2s linear;
     border: none;
     border-radius: 20px;
     font-family: 'Nunito', sans-serif;
@@ -398,6 +471,7 @@ font-family: 'Nunito', sans-serif;
     padding: 5px 10px 5px 10px;
     width: auto;
 }
+
 .customerhead{
     color: #000;
 position: relative;
@@ -484,28 +558,47 @@ font-family: 'Nunito', sans-serif;
 .img{
     width: 50px;
     height: auto;
+    display: flex;
+    justify-content: center;
 }
 .roundrect{
-    margin-top: 50px;
+    display: flex;
+    margin: 50px 100px;
+    width: 80%;
+    border-radius: 60px;
+    box-shadow: rgba(17, 12, 46, 0.053) 0px 20px 60px 0px;
+}
+.firsthalf{
+    border-radius: 30px;
+    width: 200px;
+    height: auto;
+}
+.secondhalf{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top:50px ;
+    width: 70%;
 }
+
 .subscribe{
-    background-color: #b9c2d4;
+    background-color: #c6cad2cc;
     color: #000;
     border: none;
+    transition: 0.2s linear;
     border-radius: 20px;
     font-family: 'Nunito', sans-serif;
     height: 36px;
     font-size: 14px;
     padding: 5px 10px 5px 10px;
-    width: 120px;
+    width: 15%;
     justify-content: center;
     align-items: center;
     margin-bottom: 30px;
 }
+
+
 .endcontent{
     color: #000;
 position: relative;
@@ -514,31 +607,154 @@ font-family: 'Nunito', sans-serif;
     height: 100px;
     font-size: 35px;
     font-weight: 700;
-    width: 550px;
+    width: 70%;
     padding: 10px;
+    margin-bottom: 5%;
+}
+.colours{
+    position: relative;
+    width: 300px;
+    height: auto;
+    border-radius: 60px;
 }
 .emailadd{
     width: 450px;
     height: 70px;
     border: none;
     border-radius: 30px;
-    margin-left: 20px;
+    margin-left: 40px;
+    text-align: left;
+}
+.emailadd:focus{
+ outline: none;
 }
 .address{
     border-radius: 30px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
     height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 8%;
 }
 .subscrib{
     font-family: 'Nunito', sans-serif;
     padding: 15px;
-    width: 180px;
-    height:70px;
+    transition: 0.2s linear;
+    width: 160px;
+    height:60px;
     font-size: 15px;
-    border-radius: 50px;
+    border-radius: 30px;
     color: #F9FEFF;
     background-color: #3285FF;
     border:none;
-    justify-content: center;
     align-items: center;
+    margin-right: 5%;
+}
+.subscrib:hover{
+    color: #3285FF;
+    background-color: #F9FEFF;
+    transition: 0.2s linear;
+    border-radius: 40px;
+    border: 1px solid #3285FF;
+    cursor: pointer;
+}
+
+.footer{
+    height: 60%;
+    display: flex;
+    margin: 10% 5% 5% 5%;
+}
+.head{
+    color: #000;
+position: relative;
+text-align: left;
+font-family: 'Nunito', sans-serif;
+    height: 20px;
+    font-size: 19px;
+    font-weight: 700;
+    width: auto;
+    padding-bottom: 10px;
+}
+.footlogo{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 1%;
+    width: 20%;
+}
+.details1{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.434);
+    padding: 20px;
+    padding-left: 0;
+    text-align: left;
+    width: 70%;
+    padding-bottom: 0;
+
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.434);
+    padding: 20px;
+    padding-left: 0;
+    line-height: 30px;
+    text-align: left;
+    width: 70%;
+    padding-bottom: 0;
+}
+.logo2{
+    height: auto;
+    width: 60%;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+}
+.icon{
+    width: 18%;
+    height: auto;
+    padding: 6%;
+}
+.footerend{
+    background-color: #2370e3;
+    display: flex;
+    padding: 15px;
+    flex-direction: row;
+}   
+.copy,.privacy,.tandc{
+    color: #FFF1E8;
+    font-family: 'Poppins', sans-serif;
+    font-size: 11px;
+}
+.copy{
+    padding-right: 600px;
+    padding-left: 50px;
+}
+.privacy{
+    padding-right: 40px;
+}
+.footer:hover{
+    cursor: pointer;
+}
+.details a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.head:hover{
+    transition: 0.05s linear;
+    transform: scale(1.5);
 }

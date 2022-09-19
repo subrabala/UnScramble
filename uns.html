@@ -2,7 +2,10 @@
 <html>
   <head>
     <title>UnScramble</title>
+   
+<link rel="icon" type="image/ico" sizes="32x32" href="favicon.ico">
 
+<link rel="manifest" href="/site.webmanifest">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap"
@@ -50,171 +53,261 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="uns.css" />
+    <link rel="stylesheet" href="unsresp.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <div class="firstpage">
       <div class="header">
         <div class="logo">
-          <img src="LogoUns.png" class="logo1" />
+          <img src="unslogo.png" class="logo1" />
+          <img src="burger.png" class="burger">
         </div>
-        <div class="home">Home</div>
-        <div class="pricing">Pricing</div>
-        <div class="support">Support</div>
-        <div class="contact">Contact</div>
-        <button class="signin">Sign In</button>
-        <button class="signup">Sign Up</button>
+        <div class="home" data-aos="fade-up" data-aos-offset="200"
+        data-aos-delay="200" data-aos-once="true"
+        data-aos-easing="ease-in-out">Home</div>
+        <div class="pricing" data-aos="fade-up" data-aos-offset="200"
+        data-aos-delay="350" data-aos-once="true"
+        data-aos-easing="ease-in-out">Pricing</div>
+        <div class="support" data-aos="fade-up" data-aos-offset="200"
+        data-aos-delay="400" data-aos-once="true"
+        data-aos-easing="ease-in-out">Support</div>
+        <div class="contact" data-aos="fade-up" data-aos-offset="200"
+        data-aos-delay="550" data-aos-once="true"
+        data-aos-easing="ease-in-out">Contact</div>
+        <button class="signin"  >Sign In</button>
+        <button class="signup" >Sign Up</button>
       </div>
       <div class="mainscreen">
         <div class="left">
-          <div class="main">
-            Organize your file<br />more structured<br />
-            and organized
+          <div class="main" data-aos="fade-up" 
+          data-aos-easing="ease-in-out" data-aos-once="true">
+            Organize your file more structured and organized
           </div>
-          <div class="subtext1">
+          <div class="subtext1" data-aos="fade-up" data-aos-offset="200"
+          data-aos-delay="500"
+          data-aos-easing="ease-in-out" data-aos-once="true">
             unscramble is a simple file manager but has all the features you
             need, a comfortable and easy-to-use interface.
           </div>
-          <div class="buttons">
+          <div class="buttons" data-aos="fade-up" data-aos-offset="200"
+          data-aos-delay="300" data-aos-once="true"
+          data-aos-easing="ease-in-out">
             <button class="free">Start free trial</button>
-            <button class="watch">
-              <img src="play.png" class="play" />Watch video
+            <button class="watch" data-aos-offset="200"
+            data-aos-delay="300" data-aos-once="true"
+            data-aos-easing="ease-in-out">
+            <div class="watchplay"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="15" height="15" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve" ><g>
+              <g xmlns="http://www.w3.org/2000/svg">
+                <g>
+                  <g class="play">
+                    <path d="M256,0C114.833,0,0,114.844,0,256s114.833,256,256,256s256-114.844,256-256S397.167,0,256,0z M256,490.667     C126.604,490.667,21.333,385.396,21.333,256S126.604,21.333,256,21.333S490.667,126.604,490.667,256S385.396,490.667,256,490.667     z"   data-original="#000000" class=""></path>
+                    <path d="M357.771,247.031l-149.333-96c-3.271-2.135-7.5-2.25-10.875-0.396C194.125,152.51,192,156.094,192,160v192     c0,3.906,2.125,7.49,5.563,9.365c1.583,0.865,3.354,1.302,5.104,1.302c2,0,4.021-0.563,5.771-1.698l149.333-96     c3.042-1.958,4.896-5.344,4.896-8.969S360.813,248.99,357.771,247.031z M213.333,332.458V179.542L332.271,256L213.333,332.458z"  data-original="#000000" class=""></path>
+                  </g>
+                </g>
+              </g>
+              
+              </g></svg><div class="watchtext">Watch video</div> </div>
             </button>
           </div>
         </div>
-        <div class="right"><img src="image.png" class="girlimage" /></div>
+        <div class="right"><img src="image.png" class="girlimage" data-aos="zoom-in"  data-aos-once="true"/></div>
       </div>
     </div>
     <div class="whitespace"></div>
     <div class="secondpage">
-      <button class="fiture">FUTURE FOR YOU</button>
-      <div class="welcome">Welcome to UnScramble</div>
-      <div class="welcomebelow">
+      <button class="fiture" data-aos="fade-up" data-aos-delay="500" data-aos-once="true">FUTURE FOR YOU</button>
+      <div class="welcome" data-aos="fade-up" data-aos-delay="500" data-aos-once="true">Welcome to UnScramble</div>
+      <div class="welcomebelow" data-aos="fade-up" data-aos-delay="500" data-aos-once="true">
         Inside UnScramble, we present everything needed to manage the filesegent
         in one package
       </div>
     </div>
     <div class="cards">
-      <div class="card">
+      <div class="card" data-aos="fade-up" data-aos-offset="200"
+      data-aos-delay="500" data-aos-once="true"
+      data-aos-easing="ease-in-out">
         <div class="img"><img src="folder.png" class="folder" /></div>
-        <div class="maintext">Manage files</div>
-        <div class="subtext">
+        <div class="maintext" data-aos="fade-up" data-aos-once="true">Manage files</div>
+        <div class="subtext" data-aos="fade-up" data-aos-once="true">
           You can easily manage files with a nice appearance
         </div>
       </div>
-      <div class="card">
-        <div class="img"><img src="pie.png" class="pie" /></div>
-        <div class="maintext">Structured</div>
-        <div class="subtext">
+      <div class="card" data-aos="fade-up" data-aos-offset="200"
+      data-aos-delay="600" data-aos-once="true"
+      data-aos-easing="ease-in-out">
+        <div class="img"><img src="pie.png" class="pie" data-aos="fade-up" data-aos-once="true"/></div>
+        <div class="maintext" data-aos="fade-up" data-aos-once="true">Structured</div>
+        <div class="subtext" data-aos="fade-up" data-aos-once="true">
           Unscramble is very structured even in small ways
         </div>
       </div>
-      <div class="card">
-        <div class="img"><img src="increase.png" class="inc" /></div>
-        <div class="maintext">Unli space</div>
-        <div class="subtext">The storage space will always be maintainted</div>
+      <div class="card" data-aos="fade-up" data-aos-offset="200"
+      data-aos-delay="800"
+      data-aos-easing="ease-in-out" data-aos-once="true">
+        <div class="img"><img src="increase.png" class="inc" data-aos="fade-up" data-aos-once="true"/></div>
+        <div class="maintext" data-aos="fade-up" data-aos-once="true">Unli space</div>
+        <div class="subtext" data-aos="fade-up" data-aos-once="true">The storage space will always be maintainted</div>
       </div>
-      <div class="card">
-        <div class="img"><img src="padlock.png" class="lock" /></div>
-        <div class="maintext">Secure</div>
-        <div class="subtext">All your privacy is kept safe at UnScramble</div>
+      <div class="card" data-aos="fade-up" data-aos-offset="200"
+      data-aos-delay="1000" data-aos-once="true"
+      data-aos-easing="ease-in-out">
+        <div class="img"><img src="padlock.png" class="lock" data-aos="fade-up" data-aos-once="true"/></div>
+        <div class="maintext" data-aos="fade-up" data-aos-once="true">Secure</div>
+        <div class="subtext" data-aos="fade-up" data-aos-once="true">All your privacy is kept safe at UnScramble</div>
       </div>
     </div>
-    <div class="secondwhole">
+    <div class="secondwhole" >
       <div class="secondleft">
-        <img src="bluegirl.jpg" class="bluegirl" />
-        <img src="selfieblue.jpg" class="blueselfie" />
-        <img src="yellowgirl.jpg" class="yellowgirl" />
+        <img src="bluegirl.jpg" class="bluegirl"  data-aos="zoom-in" data-aos-once="true"/>
+        <img src="selfieblue.jpg" class="blueselfie" data-aos="zoom-in" data-aos-once="true" />
+        <img src="yellowgirl.jpg" class="yellowgirl" data-aos="zoom-in" data-aos-once="true"/>
       </div>
       <div class="secondright">
-        <button class="features">Best Features</button>
-        <div class="workand">Work and don't think about memory</div>
-        <div class="workandbelow">
+        <button class="features" data-aos="fade-up" data-aos-delay="500" data-aos-once="true">Best Features</button>
+        <div class="workand" data-aos="fade-up" data-aos-delay="500" data-aos-once="true">Work and don't think about memory</div>
+        <div class="workandbelow" data-aos="fade-up" data-aos-delay="500" data-aos-once="true">
           You can work casually without thinking about storage space, so that
           your work can be carried out optimally. UnScramble is very easy to
           use, just turn on the internet connection and login to your account.
         </div>
-        <button class="learnmore">Learn more</button>
+        <div data-aos="fade-up" data-aos-delay="500" data-aos-once="true"><button class="learnmore" >Learn more</button></div>
       </div>
     </div>
+    <div class="whitespace"></div>
     <div class="thirdpage">
       <div class="right">
         <div class="thirdright">
-          <button class="features">Download app</button>
-          <div class="workand">
+          <button class="features" data-aos="fade-up" data-aos-delay="500" data-aos-once="true">Download app</button>
+          <div class="workand" data-aos="fade-up" data-aos-delay="500" data-aos-once="true">
             Monitor your files and become a better mananger
           </div>
-          <div class="workandbelow">
+          <div class="workandbelow" data-aos="fade-up" data-aos-delay="500" data-aos-once="true">
             Join us by installing the UnScramble application on your smartphone
             so you can easily manage your files remotely and finally this
             application you can search on the app store or google play
           </div>
           <div class="stores">
-            <img src="applelogo.png" class="store2" /><img
-              src="googleplay.png"
-              class="store1"
-            />
+            <img src="applelogo.png" class="store2" data-aos="fade-up" data-aos-delay="500" data-aos-once="true"/>
+            <img src="googleplay.png" class="store1" data-aos="fade-up" data-aos-delay="500" data-aos-once="true"/>
           </div>
         </div>
       </div>
-      <div class="left"><img src="phone.png" class="mobile" /></div>
+      <div class="left"><img src="phone.png" class="mobile" data-aos="fade-up" data-aos-delay="500" data-aos-once="true"/></div>
       <div class="circles">
-        <div class="bluec"></div>
-        <div class="yellowc"></div>
-        <div class="lblue"></div>
+        <div class="bluec" data-aos="fade-right" data-aos-delay="800" data-aos-once="true"></div>
+        <div class="yellowc" data-aos="fade-left" data-aos-delay="1000" data-aos-once="true"></div>
+        <div class="lblue" data-aos="fade-left" data-aos-delay="1200" data-aos-once="true"></div>
       </div>
     </div>
-    <div class="whitespace"></div>
     <div class="customer">
-      <button class="testimonial">TESTIMONIALS</button>
-      <div class="customerhead">What customers say</div>
-      <div class="customerbelow">
+      <button class="testimonial" data-aos="fade-up" data-aos-delay="500" data-aos-once="true">TESTIMONIALS</button>
+      <div class="customerhead" data-aos="fade-up" data-aos-delay="500" data-aos-once="true">What customers say</div>
+      <div class="customerbelow" data-aos="fade-up" data-aos-delay="500" data-aos-once="true">
         We did not only hear what you've said, but we also consider it and try
         to make it happen
       </div>
     </div>
-    <div class="reviews">
-      <div class="review1">
-        <img src="reviewp.jpg" class="reviewimg1" />
-        <div class="actualreview">
+    <div class="reviews" >
+      <div class="review1" data-aos="fade-up" data-aos-offset="200"
+      data-aos-delay="500" data-aos-once="true"
+      data-aos-easing="ease-in-out">
+        <img src="reviewp.jpg" class="reviewimg1" data-aos="fade-up" data-aos-once="true"/>
+        <div class="actualreview" data-aos="fade-up" data-aos-once="true">
           "I'm never gonna let you close to me, even though you mean the most to
           me. Cause everytime I think of you it hurts."
         </div>
-        <div class="stars">
-          <div class="name">Sam Smith</div>
-          <div class="rating"><img src="rating.png" class="rtg" /></div>
+        <div class="stars" data-aos-once="true">
+          <div class="name" data-aos="fade-up"  data-aos-once="true">Sam Smith</div>
+          <div class="rating"  ><img src="rating.png" class="rtg" data-aos="fade-up"  data-aos-once="true"/></div>
         </div>
-        <div class="place">Georgia</div>
+        <div class="place" data-aos="fade-up" data-aos-once="true">Georgia</div>
       </div>
-      <div class="review1">
-        <img src="reviewq.jpg" class="reviewimg1" />
-        <div class="actualreview">
+      <div class="review1" data-aos="fade-up" data-aos-offset="200"
+      data-aos-delay="300"  data-aos-once="true"
+      data-aos-easing="ease-in-out">
+        <img src="reviewq.jpg" class="reviewimg1" data-aos="fade-up" data-aos-once="true"/>
+        <div class="actualreview" data-aos="fade-up" data-aos-once="true">
           "Nobody said it was easy, no one ever said it would be this hard. Oh
           take me back to the start."
         </div>
         <div class="stars">
-          <div class="name">Chris Martin</div>
-          <div class="rating"><img src="rating5.png" class="rtg" /></div>
+          <div class="name" data-aos="fade-up" data-aos-once="true">Chris Martin</div>
+          <div class="rating"><img src="rating5.png" class="rtg" data-aos="fade-up" data-aos-once="true"/></div>
         </div>
-        <div class="place">Coldplay</div>
+        <div class="place" data-aos="fade-up"  data-aos-once="true">Coldplay</div>
       </div>
-      <div class="review1">
-        <img src="reviewr.jpg" class="reviewimg1" />
-        <div class="actualreview" style="padding-bottom: 4px">
+      <div class="review1" data-aos="fade-up" data-aos-offset="200"
+      data-aos-delay="600"
+      data-aos-easing="ease-in-out" data-aos-once="true">
+        <img src="reviewr.jpg" class="reviewimg1" data-aos="fade-up" data-aos-once="true"/>
+        <div class="actualreview" style="padding-bottom: 4px" data-aos="fade-up"  data-aos-once="true">
           "Maybe my soulmate died I don't know, maybe I don't have a soul. What
           if i saw you on the train last night and I just walked on by."
         </div>
         <div class="stars">
-          <div class="name">Shane Watson</div>
-          <div class="rating"><img src="rating.png" class="rtg" /></div>
+          <div class="name" data-aos="fade-up" data-aos-once="true">Shane Watson</div>
+          <div class="rating"><img src="rating.png" class="rtg" data-aos="fade-up" data-aos-once="true"/></div>
         </div>
-        <div class="place">New York</div>
+        <div class="place" data-aos="fade-up" data-aos-once="true">New York</div>
       </div>
     </div>
     <div class="scroll"><img src="more.png" class="img" /></div>
     <div class="roundrect">
-      <button class="subscribe">Subscribe</button>
-      <div class="endcontent">Subscribe To Get The Latest News About US</div>
-      <div class="address"><input type="email" class="emailadd" placeholder="Enter your email address"><button class="subscrib">Subscribe</button></div>
+      <div class="firsthalf" data-aos="fade-up"  data-aos-once="true"><img src="circles.png" class="colours" data-aos="fade-up" data-aos-once="true"></div>
+      <div class="secondhalf"><button class="subscribe" data-aos="fade-up" data-aos-once="true">Subscribe</button>
+        <div class="endcontent" data-aos="fade-up" data-aos-once="true">Subscribe To Get The Latest News About US</div>
+        <div class="address" data-aos="fade-up" data-aos-once="true">
+          
+          <input type="email" class="emailadd" placeholder="        Enter your email address"><button class="subscrib">Subscribe</button></div>
+        </div>
     </div>
+    <div class="footer">
+      <div class="footlogo"><img src="unslogo.png" class="logo2" data-aos="fade-up"  data-aos-once="true"><div class="details1" data-aos="fade-up" data-aos-once="true">UnScramble is a simple file manager but has all the features you need, a comfortable and easy-to-use interface.</div></div>
+      <div class="about" >
+        <div class="head" data-aos="fade-up" data-aos-once="true">About</div>
+        <div class="details" data-aos="fade-up" data-aos-once="true">
+          <a >About Us</a>
+        <a>Features</a>
+        <a>News</a>
+        <a>Careers</a>
+        </div>
+      </div>
+      <div class="about" data-aos="fade-up" data-aos-once="true" >
+        <div class="head" data-aos="fade-up" data-aos-once="true">Company</div>
+        <div class="details" data-aos="fade-up" data-aos-once="true">
+          <a>Our Team</a> 
+        <a>Partner With Us</a> 
+        <a>FAQ</a>
+        <a>Blog</a>
+        </div>
+      </div>
+      <div class="about" data-aos="fade-up" data-aos-once="true">
+        <div class="head" data-aos="fade-up" data-aos-once="true">Support</div>
+        <div class="details" data-aos="fade-up" data-aos-once="true"><a>Account</a> 
+          <a>Support Center</a> 
+          <a>Feedback</a>
+          <a>Contact Us</a>
+          <a>Accesibility</a></div>
+      </div>
+      <div class="about" data-aos="fade-up" data-aos-once="true">
+        <div class="head" data-aos="fade-up" data-aos-once="true">Follow Us</div>
+        <div class="icons" data-aos="fade-up" data-aos-once="true">
+        <img src="facebook.png" class="icon">
+        <img src="insta.png" class="icon">
+        <img src="linked.png" class="icon">
+        </div>
+      </div>
+    </div>
+    <div class="footerend">
+      <div class="copy">Copyright UnScramble 2021 All right reserved</div>
+      <div class="privacy">Privacy Policy</div>
+      <div class="tandc">Terms and Conditions</div>
+    </div>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
