@@ -1,4 +1,4 @@
-@media (max-width: 400px){
+@media (max-width: 600px){
     /* .firstpage {
         display: flex;
         flex-direction: row;
@@ -20,20 +20,22 @@
         display: flex;
     }
     .burger{
-        display: block;
-        width: 25%;
-        height: 25%;
-        margin-top: 7%;
-        margin-left: 10%;
+        display: inline;
+        width: 10%;
+        height: auto;
+        position: absolute;
+        right: 30px;
+        top: 35px;
     }
     .mainscreen{
         display: flex;
         flex-direction: column;
     }
     .buttons{
-        width: 100%;
+        width: 90vw;
         height: auto;
-        margin: 0;
+        margin: 0 5%;
+        
     }
     .main{
         padding: 0 10%;
@@ -88,7 +90,7 @@
     }
     .free{
         padding: 1%;
-        height: 45px;
+        height: 35px;
         width: 200px;
         font-size: 10px;
         margin-left: 10px;
@@ -97,7 +99,7 @@
     .watch{
         padding: 1%;
         width: 200px;
-        height: 45px;
+        height: 35px;
         font-size: 10px;
         margin-right: 5%;
     }
@@ -186,6 +188,8 @@
         justify-content: center;
         width: 230px;
         height: 330px;
+        margin-left: 7%;
+        margin-right: 7%;
         box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
     }
     .firsthalf{
