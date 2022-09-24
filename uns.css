@@ -25,7 +25,7 @@ body{
 .home, .pricing, .support, .contact{
     font-family: 'Nunito', sans-serif;
     padding: 40px 27px 20px 27px;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 700;
     height: 20px;
     
@@ -43,7 +43,7 @@ body{
     width: auto;
     font-family: 'Nunito', sans-serif;
     padding: 10px 20px;
-    font-size: 14px;
+    font-size: 0.9rem;
     border-radius: 10px;
     margin-right: 25px;
     color: #3285FF;
@@ -69,7 +69,7 @@ body{
     transition: 0.2s linear;
     padding: 0px 25px;
     font-weight: bolder;
-    font-size: 14px;
+    font-size: 0.8rem;
     border-radius: 40px;
     color: #F9FEFF;
     background-color: #3285FF;
@@ -97,7 +97,7 @@ body{
     font-family: 'Poppins', sans-serif;
   font-weight: 600;
   line-height: 80px;
-    font-size: 62px;
+    font-size: 3.8rem;
     color: #000;
     
  }
@@ -107,7 +107,7 @@ body{
     padding-bottom: 30px;
     padding-left: 90px;
     font-family: 'Poppins', sans-serif;
-    font-size: 17px;
+    font-size: 1.05rem;
     width: 400px;
     color: rgba(0, 0, 0, 0.434);
     margin: 0;
@@ -124,7 +124,7 @@ body{
     width: 180px;
     height:70px;
     transition: 0.2s linear;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 50px;
     color: #F9FEFF;
     background-color: #3285FF;
@@ -160,7 +160,7 @@ body{
     border: 1.5px solid #3285FF ;
     font-family: 'Nunito', sans-serif;
     padding: 20px;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 50px;
     color: #3285FF;
     background-color: #F9FEFF;
@@ -205,7 +205,7 @@ body{
     border-radius: 20px;
     font-family: 'Nunito', sans-serif;
     height: 30px;
-    font-size: 11px;
+    font-size:0.7rem;
     padding: 5px 10px 5px 10px;
     width: auto;
 }
@@ -216,14 +216,14 @@ position: relative;
 text-align: center;
 font-family: 'Nunito', sans-serif;
     height: 30px;
-    font-size: 30px;
+    font-size: 1.9rem;
     font-weight: 700;
     width: auto;
     padding: 10px;
 }
 .welcomebelow{
     font-family: 'Poppins', sans-serif;
-    font-size: 15px;
+    font-size: 1rem;
     color: rgba(0, 0, 0, 0.434);
     padding: 20px;
     text-align: center;
@@ -271,7 +271,7 @@ position: relative;
 text-align: center;
 font-family: 'Nunito', sans-serif;
     height: 20px;
-    font-size: 19px;
+    font-size: 1.1rem;
     font-weight: 700;
     width: auto;
     padding: 10px;
@@ -279,7 +279,7 @@ font-family: 'Nunito', sans-serif;
 }
 .subtext{
     font-family: 'Poppins', sans-serif;
-    font-size: 13px;
+    font-size: 0.8rem;
     color: rgba(0, 0, 0, 0.434);
     padding: 20px;
     text-align: center;
@@ -292,6 +292,7 @@ font-family: 'Nunito', sans-serif;
 }
 .secondleft{
     width: 50%;
+    height: auto;
 }
 .bluegirl{
     width: 250px;
@@ -327,13 +328,14 @@ font-family: 'Nunito', sans-serif;
     transition: 0.2s linear;
     font-family: 'Nunito', sans-serif;
     padding: 0 15px 0 15px;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 50px;
     color: #3285FF;
     background-color: #F9FEFF;
     font-weight: bold;
-    margin: 20px;
     margin-bottom: 10px;
+    margin-left: 15px;
+    margin-top: 5px;
 }
 .learnmore:hover{
     background-color: #3285FF;
@@ -350,6 +352,10 @@ font-family: 'Nunito', sans-serif;
 .right{
     margin-top: 100px;
 }
+.left{
+    height: 80%;
+
+}
 .thirdright{
     display: flex;
     flex-direction: column;
@@ -363,7 +369,7 @@ font-family: 'Nunito', sans-serif;
     border-radius: 20px;
     font-family: 'Nunito', sans-serif;
     height: 30px;
-    font-size: 13px;
+    font-size: 0.8rem;
     margin-left: 20px;
     padding: 5px;
     width: 120px;
@@ -375,7 +381,7 @@ font-family: 'Nunito', sans-serif;
 text-align: left;
 font-family: 'Nunito', sans-serif;
     height: 30px;
-    font-size: 30px;
+    font-size: 1.8rem;
     font-weight: 700;
     width: 380px;
     padding: 20px;
@@ -383,12 +389,12 @@ font-family: 'Nunito', sans-serif;
 }
 .workandbelow{
     font-family: 'Poppins', sans-serif;
-    font-size: 15px;
+    font-size: 1rem;
     color: rgba(0, 0, 0, 0.434);
     padding: 20px;
     text-align: left;
     width: 440px;
-    padding-bottom: 0;
+    padding-bottom: 20px;
 }
 
 .stores{
@@ -467,7 +473,7 @@ margin-top: 20px;
     border-radius: 20px;
     font-family: 'Nunito', sans-serif;
     height: 30px;
-    font-size: 11px;
+    font-size: 0.7rem;
     padding: 5px 10px 5px 10px;
     width: auto;
 }
@@ -478,14 +484,14 @@ position: relative;
 text-align: center;
 font-family: 'Nunito', sans-serif;
     height: 30px;
-    font-size: 30px;
+    font-size: 1.8rem;
     font-weight: 700;
     width: auto;
     padding: 10px;
 }
 .customerbelow{
     font-family: 'Poppins', sans-serif;
-    font-size: 15px;
+    font-size: 0.9rem;
     color: rgba(0, 0, 0, 0.434);
     padding: 20px;
     text-align: center;
@@ -512,7 +518,7 @@ font-family: 'Nunito', sans-serif;
 }
 .actualreview{
     font-family: 'Poppins', sans-serif;
-    font-size: 15px;
+    font-size: 0.9rem;
     color: rgba(0, 0, 0, 0.434);
     padding: 20px;
     text-align: left;
@@ -525,7 +531,7 @@ font-family: 'Nunito', sans-serif;
 
     font-family: 'Nunito', sans-serif;
         height: 20px;
-        font-size: 20px;
+        font-size: 1.25rem;
         font-weight: 700;
         width: auto;
         padding: 10px 10px 0 0;
@@ -545,7 +551,7 @@ font-family: 'Nunito', sans-serif;
 }
 .place{
     font-family: 'Poppins', sans-serif;
-    font-size: 15px;
+    font-size: 0.9rem;
     color: rgba(0, 0, 0, 0.434);
     padding: 10px;
     width: 200px;
@@ -590,7 +596,7 @@ font-family: 'Nunito', sans-serif;
     border-radius: 20px;
     font-family: 'Nunito', sans-serif;
     height: 36px;
-    font-size: 14px;
+    font-size: 0.8rem;
     padding: 5px 10px 5px 10px;
     width: 15%;
     justify-content: center;
@@ -605,7 +611,7 @@ position: relative;
 text-align: center;
 font-family: 'Nunito', sans-serif;
     height: 100px;
-    font-size: 35px;
+    font-size: 2.2rem;
     font-weight: 700;
     width: 70%;
     padding: 10px;
@@ -644,7 +650,7 @@ font-family: 'Nunito', sans-serif;
     transition: 0.2s linear;
     width: 160px;
     height:60px;
-    font-size: 15px;
+    font-size: 0.9rem;
     border-radius: 30px;
     color: #F9FEFF;
     background-color: #3285FF;
@@ -672,7 +678,7 @@ position: relative;
 text-align: left;
 font-family: 'Nunito', sans-serif;
     height: 20px;
-    font-size: 19px;
+    font-size: 1.2rem;
     font-weight: 700;
     width: auto;
     padding-bottom: 10px;
@@ -693,7 +699,7 @@ font-family: 'Nunito', sans-serif;
     display: flex;
     flex-direction: column;
     font-family: 'Poppins', sans-serif;
-    font-size: 15px;
+    font-size: 0.9rem;
     color: rgba(0, 0, 0, 0.434);
     padding: 20px;
     padding-left: 0;
@@ -706,7 +712,7 @@ font-family: 'Nunito', sans-serif;
     display: flex;
     flex-direction: column;
     font-family: 'Poppins', sans-serif;
-    font-size: 15px;
+    font-size: 0.9rem;
     color: rgba(0, 0, 0, 0.434);
     padding: 20px;
     padding-left: 0;
@@ -738,7 +744,7 @@ font-family: 'Nunito', sans-serif;
 .copy,.privacy,.tandc{
     color: #FFF1E8;
     font-family: 'Poppins', sans-serif;
-    font-size: 11px;
+    font-size: 0.68rem;
 }
 .copy{
     padding-right: 600px;
